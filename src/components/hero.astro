@@ -1,0 +1,25 @@
+---
+// src/components/Hero.astro
+---
+
+<header class="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+    <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-600/20 rounded-full mix-blend-screen filter blur-3xl animate-float"></div>
+    <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-emerald-600/20 rounded-full mix-blend-screen filter blur-3xl animate-float" style="animation-delay: 200ms;"></div>
+
+    <div class="relative z-10 max-w-5xl mx-auto px-6 text-center">
+        <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-8 animate-fade-in-up">
+            Democratizing Access to <br/>
+            <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-emerald-400 to-teal-300">
+                Advanced Instrumentation
+            </span>
+        </h1>
+        <p class="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl mx-auto animate-fade-in-up" style="animation-delay: 100ms;">
+            The premier academic platform for Central Instrumentation Facility (CIF) sharing, virtual lab assistance, and comprehensive research resource aggregation.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up" style="animation-delay: 200ms;">
+            <button class="bg-white text-slate-900 px-8 py-3 rounded-full font-semibold hover:bg-slate-100 transition-all shadow-lg transform hover:-translate-y-1">
+                Explore Equipment
+            </button>
+        </div>
+    </div>
+</header>
